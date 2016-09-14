@@ -45,7 +45,7 @@ namespace CreateXPSFile
             // ページのサイズを設定する（ここでは A4 版 にした）
             docPaginator.PageSize = new Size(794, 1123);
 
-            XpsDocument xpsDoc = new XpsDocument(@"C:\Users\kenichi\Desktop\work", FileAccess.ReadWrite);
+            XpsDocument xpsDoc = new XpsDocument(@"C:\Users\kenichi\Desktop\work\test.xps", FileAccess.ReadWrite);
 
             XpsDocumentWriter writer = XpsDocument.CreateXpsDocumentWriter(xpsDoc);
 
